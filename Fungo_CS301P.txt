@@ -1,0 +1,91 @@
+using System;
+namespace ConsoleApp
+{
+    
+    class GreetingProgram
+    {
+        static void Main (String[] args)
+        {
+            Console.Write("Name: ");
+            string name = Console.ReadLine();
+            
+            Console.Write("Present Address: ");
+            string preAdd = Console.ReadLine();
+            
+            Console.Write("Permanent Address: ");
+            string perAdd = Console.ReadLine();
+            
+            Console.Write("Date of Birth: ");
+            string birth = Console.ReadLine();
+            
+            Console.Write("Civil Status: ");
+            string civil = Console.ReadLine();
+            
+            Console.Write("Citizenship: ");
+            string citizen = Console.ReadLine();
+            
+            Console.Write("Place of Birth: ");
+            string plBirth = Console.ReadLine();
+            
+            Console.Write("Religion: ");
+            string religion = Console.ReadLine();
+            
+            Console.Write("Age: ");
+            int age;
+            age = Convert.ToInt32(Console.ReadLine());
+            
+            Console.Write("Weight: ");
+            string weight = Console.ReadLine();
+            
+            Console.Write("Height: ");
+            string height = Console.ReadLine();
+            
+            Console.Write("Name of Father: ");
+            string fName = Console.ReadLine();
+            
+            Console.Write("Name of Mother: ");
+            string mName = Console.ReadLine();
+            
+            Console.Write("Address: ");
+            string address = Console.ReadLine();
+            
+            Console.Write("Languages or Dialects Spoken: ");
+            string LangDia = Console.ReadLine();
+            
+            Console.Write("Person to be notified In case of Emergency: ");
+            string sos = Console.ReadLine();
+            
+            Console.WriteLine("Name                 : " + name);
+            
+            Console.WriteLine("Present Address      : " + preAdd);
+            
+            Console.WriteLine("Permanent Address    : " + perAdd);
+            
+            Console.WriteLine("Date of Birth        : " + birth + 
+            "                   Religion: " +religion);
+            
+            Console.WriteLine("Civil Status         : " + civil + 
+            "                   Age: " + age);
+            
+            Console.WriteLine("Citizenship          : " + citizen + 
+            "                   Weight: " + weight );
+            
+            Console.WriteLine("Place of Birth       : " + plBirth + 
+            "                   Height: " + height);
+            
+            Console.WriteLine("Name of Father       : " + fName);
+            
+            Console.WriteLine("Name of Mother       : " + citizen);
+            
+            Console.WriteLine("Address              : " + address);
+            
+            Console.WriteLine("Languages or Dialects Spoken: " + LangDia);
+            
+            Console.WriteLine("Person to be notified: " + sos);
+            
+            Console.Write("\nPress any key to exit...");
+            
+            Console.ReadKey();
+        }
+    }
+}
